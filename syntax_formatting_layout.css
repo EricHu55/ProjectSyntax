@@ -1,0 +1,62 @@
+.main{background-color: beige;}
+.sub_L1{background-color: yellow;}
+.sub_L2{background-color: red;}
+.sub_L3{background-color: green;}
+.tag{color: red;}
+.flex_row {display: flex;
+    flex-direction: row;
+    border:1px solid blue;
+    overflow-x: scroll;
+    margin: 5px;}
+.syntax {margin-left: 10px;
+    width: 15%;
+    margin-right: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: red dashed 2px}
+
+.desc {margin-left: 10px;
+    width: 30%;
+    margin-right: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: blue dashed 2px}
+
+.addi {margin-left: 10px;
+    width: 50%;
+    margin-right: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: purple dashed 2px}
+
+.code{width:2500px;}
+
+
+.title {font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;}
+
+.name{color: blue;
+    text-decoration: underline;}
+
+table, th, td {border: 1px, solid, black;
+    border-collapse: separate;
+    border-spacing: 2px;
+}
+
+th {font-weight: bold;
+    color: purple}
+.table-search {
+    margin-bottom: 10px;
+}
+
+.table-search label {
+    font-weight: bold;
+}
+
+.table-search input {
+    margin-left: 8px;
+    padding: 4px;
+    width: 275px;
+}

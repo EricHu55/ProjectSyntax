@@ -1,0 +1,15 @@
+table, th, td {
+    border: 1px solid blue;
+}
+table {
+    table-layout: fixed;
+    width: 1500px;
+    }
+td {
+    height: 30px;
+    overflow: scroll;
+    white-space: nowrap; 
+}
+.name {width: 20%;}
+.desc {width: 40%;}
+.input {width: 40%}
