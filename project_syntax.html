@@ -9,6 +9,47 @@
         <input type="search" id="tableSearchInput" placeholder="Enter syntax or description">
     </div>
 
+       <div class="code" id="selection">
+        <table>
+            <!--heading-->
+            <tr>
+                <th>syntax</th>
+                <th>description</th>
+                <th>Code function</th>
+            </tr>
+        <!--row 1-->
+            <tr>
+                <td>p for p in folder.iterdir() if p.is_dir</td>
+                <td>
+                    <ul>
+                        <li>p for in : temporary variable to store path name</li>
+                        <li>folder.iterdir() : contains files and folders in the directory</li>
+                        <li>if p.is_dir() : checks if the path is a directory</li>
+                    </ul>
+                </td>
+                <td>Search through all paths and only store if the path is a directory</td>
+            </tr>
+        <!--row 2-->
+        <tr>
+            <td>p for p in Grayscale.rglob("*")<br>
+                if p.suffix.lower() in {".jpg", ".jpeg", ".png"}
+            </td>
+            <td>
+                <ul>
+                    <li>p for in : temporary variable to store path name</li>
+                    <li>Grayscale.rglob("*") : Searches through all subfolders in directory and matches any name</li>
+                    <li>p.suffix.lower() : Check extension and convert to lowercase before checking for match in list</li>
+                </ul>
+            </td>
+            <td>Searches though all files and only preserve file if it is an image</td>
+        </tr>
+    <!--row 3-->
+        <tr>
+            <td></td>
+            <td></td>
+        </tr>
+ 
+
 
     <script src="table_search.js"></script>
     <script>
